@@ -7,14 +7,14 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load pre-trained car color detection model
-model = load_model(r'D:\project\Data Analysis\car color detection\models\COLOR_detection_model.keras')
+model = load_model(r'path_of_file\COLOR_detection_model.keras')
 
 # List of color names corresponding to predicted numbers (indices)
 color_names = ['beige', 'black', 'blue', 'brown', 'gold', 'green', 'grey', 'orange', 'pink', 'purple', 'red', 'silver', 'tan', 'white', 'yellow']
 
 # Load pre-trained object detection model (MobileNet SSD)
-net = cv2.dnn.readNetFromCaffe(r"D:\project\Data Analysis\car color detection\models\deploy.prototxt",
-                               r"D:\project\Data Analysis\car color detection\models\mobilenet_iter_73000.caffemodel")
+net = cv2.dnn.readNetFromCaffe(r"path_of_file\deploy.prototxt",
+                               r"path_of_file\mobilenet_iter_73000.caffemodel")
 
 current_zoom = 1.0  # Initialize current_zoom
 img_tk = None  # Global variable to store the image for zooming
