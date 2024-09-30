@@ -24,7 +24,7 @@ This project is a **Car Color Detection System** built with **Python** using **T
 ---
 
 #### Dataset link :
-1. [Kaggle]("https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset") you can download for the making of model if use direct than download and use run gui file 
+1. [Kaggle](https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset) you can download for the making of model if use direct than download and use run gui file 
 
 
 Please replace placeholders like `Bhawani Jangid` with your actual GitHub [username](https://github.com/Bhawani-jangid/Car-Colour-Detection/). If you need any additional sections or further customization, feel free to ask!
